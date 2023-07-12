@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>        
+
+        <title>Document</title>
+
+    </head>
+<body>
+    <h2>Yummilicious</h2>
+    <header>
+        <table border="1">
+            <tr>
+                <th>Dish Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <th>Samosa</th>
+                <td>20</td>
+                <td><input type="text" id="i1"></td>
+            </tr>
+            <tr>
+                <th>Veg Puff</th>
+                <td>15</td>
+                <td><input type="text" id="i2"></td>
+            </tr>
+            <tr>
+                <th>Veg Roll</th>
+                <td>30</td>
+                <td><input type="text" id="i3"></td>
+            </tr>
+            <tr>
+                <th>Choco Lava Cake</th>
+                <td>45</td>
+                <td><input type="text" id="i4"></td>
+            </tr>
+        </table>
+    </header>
+    <center>
+        <table>
+            <tr>
+                <th><button onclick="display()">Generate Bill</button></th>
+                <th><td id="final"></td></th>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
